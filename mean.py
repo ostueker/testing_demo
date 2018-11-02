@@ -1,6 +1,6 @@
 def mean(num_list):
     try:
-        result = sum(num_list)/len(num_list)
+        result = sum(num_list)/float(len(num_list))
         if type(result) == complex:
             return NotImplemented
         else:
